@@ -75,4 +75,11 @@ legend("topright",
        lwd = c(1, 1, 1),
        bty = "n")
 
+### Plot4
+plot(power_2days$dt, power_2days$Global_reactive_power,
+     type ="l", 
+     main = "", 
+     xlab = "datetime",
+     ylab = "Global_reactive_power")
+
 dev.off()
